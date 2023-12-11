@@ -2,6 +2,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import statsmodels
 st.set_page_config(page_title='Forecasting',layout='wide')
 st.set_option('deprecation.showPyplotGlobalUse',False)
 st.title("Forecasting")
